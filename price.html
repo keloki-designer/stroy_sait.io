@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Прайс лист</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        .header, .nav, .content, .footer {
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+        .header {
+            text-align: center;
+            background-color: #4CAF50;
+            color: white;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        .nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        .nav ul li a {
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 5px;
+        }
+        .nav ul li a:hover {
+            background-color: #45a049;
+        }
+        .content {
+            background-color: #f9f9f9;
+        }
+        .search-box, .price-card {
+            background-color: #ececec;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .price-card h3 {
+            margin-top: 0;
+        }
+        .price-card ul {
+            list-style: none;
+            padding: 0;
+        }
+        .price-card ul li {
+            margin-bottom: 10px;
+        }
+        .footer {
+            text-align: center;
+            background-color: #4CAF50;
+            color: white;
+        }
+        .footer p {
+            margin: 0;
+        }
+        .add-price-btn {
+            margin-bottom: 20px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .add-price-btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Прайс лист</h1>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="main.html">Главная</a></li>
+                <li><a href="project.html">Проекты</a></li>
+                <li><a href="Contr_agent.html">Контрагенты</a></li>
+                <li><a href="price.html">Прайс лист</a></li>
+                <li><a href="history.html">История проектов</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="search-box">
+                <h2>Поиск по прайс-листу</h2>
+                <input type="text" placeholder="Поиск...">
+              <button class="add-price-btn" style="margin-left: 30%; ">Добавить прайс-лист</button>
+            </div>
+
+            <div class="price-card">
+                <h3>Категория 1</h3>
+                <ul>
+                    <li>Услуга 1: $100/м²</li>
+                    <li>Услуга 2: $150/м²</li>
+                    <li>Услуга 3: $200/м²</li>
+                    <li>Услуга 4: $250/м²</li>
+                    <li>Услуга 5: $300/м²</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer">
+            <p>&copy; 2024 Строительная компания. Все права защищены.</p>
+        </div>
+    </div>
+</body>
+</html>

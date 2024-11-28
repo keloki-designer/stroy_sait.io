@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>История проектов</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        .header, .nav, .content, .footer {
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+        .header {
+            text-align: center;
+            background-color: #4CAF50;
+            color: white;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        .nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        .nav ul li a {
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 5px;
+        }
+        .nav ul li a:hover {
+            background-color: #45a049;
+        }
+        .content {
+            background-color: #f9f9f9;
+        }
+        .button-group {
+            margin-bottom: 20px;
+        }
+        .button-group button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+        .button-group button:hover {
+            background-color: #45a049;
+        }
+        .search-box, .project-card {
+            background-color: #ececec;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .project-card h3 {
+            margin-top: 0;
+        }
+        .project-card ul {
+            list-style: none;
+            padding: 0;
+        }
+        .project-card ul li {
+            margin-bottom: 10px;
+        }
+        .footer {
+            text-align: center;
+            background-color: #4CAF50;
+            color: white;
+        }
+        .footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>История проектов</h1>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="main.html">Главная</a></li>
+                <li><a href="project.html">Проекты</a></li>
+                <li><a href="Contr_agent.html">Контрагенты</a></li>
+                <li><a href="price.html">Прайс лист</a></li>
+                <li><a href="history.html">История проектов</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="search-box">
+                <h2>Поиск по проектам</h2>
+                <input type="text" placeholder="Поиск...">
+            </div>
+            <div class="button-group">
+                <button>Добавить счет</button>
+                <button>Добавить поступление</button>
+                <button>Выставить счет</button>
+                <button>Создать предварительный расчет</button>
+            </div>
+            <div class="project-card">
+                <h3>Название проекта 1</h3>
+                <ul>
+                    <li>Адрес: ул. Примерная, 1</li>
+                    <li>Оплата работ: $100,000</li>
+                    <li>Руководитель проекта: Иванов И.И.</li>
+                    <li>ФИО прораба: Петров П.П.</li>
+                </ul>
+            </div>
+            <div class="project-card">
+                <h3>Название проекта 2</h3>
+                <ul>
+                    <li>Адрес: ул. Примерная, 2</li>
+                    <li>Оплата работ: $150,000</li>
+                    <li>Руководитель проекта: Сидоров С.С.</li>
+                    <li>ФИО прораба: Кузнецов К.К.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer">
+            <p>&copy; 2024 Строительная компания. Все права защищены.</p>
+        </div>
+    </div>
+</body>
+</html>

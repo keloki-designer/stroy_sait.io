@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Управление проектами</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            margin-top: 50px;
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        .header, .nav, .content, .footer {
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+        .header {
+            text-align: center;
+            background-color: #4CAF50;
+            color: white;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        .nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        .nav ul li a {
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 5px;
+        }
+        .nav ul li a:hover {
+            background-color: #45a049;
+        }
+        .content {
+            background-color: #f9f9f9;
+        }
+        .search-box, .project-list, .sort-buttons {
+            background-color: #ececec;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .project-cards {
+            display: flex;
+            justify-content: space-between;
+        }
+        .project-card {
+            width: 30%;
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .project-card h3 {
+            margin-top: 0;
+        }
+        .footer {
+            text-align: center;
+            background-color: #4CAF50;
+            color: white;
+        }
+        .footer p {
+            margin: 0;
+        }
+        .sort-buttons button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+        .sort-buttons button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Управление проектами</h1>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="main.html">Главная</a></li>
+                <li><a href="project.html">Проекты</a></li>
+                <li><a href="Contr_agent.html">Контрагенты</a></li>
+                <li><a href="pr">Прайс лист</a></li>
+                <li><a href="#">История проектов</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="search-box">
+                <h2>Поиск по проектам</h2>
+                <input type="text" placeholder="Поиск...">
+            </div>
+
+            <div class="sort-buttons">
+                <button>Завершенные</button>
+                <button>На паузе</button>
+                <button>В работе</button>
+                <button style="margin-left: 30%; ">Добавить проект</button>
+            </div>
+            <div class="project-list">
+                <h2>Общий список проектов</h2>
+                <div class="project-cards">
+                    <div class="project-card">
+                        <h3>Название проекта 1</h3>
+                        <p>Статус: Активный</p>
+                        <p>Руководитель: Иванов И.И.</p>
+                        <p>Дата сдачи: 01.01.2025</p>
+                        <p>Стоимость: $50,000</p>
+                        <p>Поступления: $30,000</p>
+                        <p>Расходы: $20,000</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Название проекта 2</h3>
+                        <p>Статус: Замороженный</p>
+                        <p>Руководитель: Петров П.П.</p>
+                        <p>Дата сдачи: 01.06.2025</p>
+                        <p>Стоимость: $70,000</p>
+                        <p>Поступления: $40,000</p>
+                        <p>Расходы: $35,000</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Название проекта 3</h3>
+                        <p>Статус: Завершенный</p>
+                        <p>Руководитель: Сидоров С.С.</p>
+                        <p>Дата сдачи: 01.12.2024</p>
+                        <p>Стоимость: $100,000</p>
+                        <p>Поступления: $100,000</p>
+                        <p>Расходы: $70,000</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>&copy; 2024 Строительная компания. Все права защищены.</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Строительная компания</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        .header, .nav, .metrics, .control-panel {
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+        .header {
+            text-align: center;
+            background-color: #4CAF50;
+            color: white;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        .nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        .nav ul li a {
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 5px;
+        }
+        .nav ul li a:hover {
+            background-color: #45a049;
+        }
+        .metrics, .control-panel {
+            display: flex;
+            justify-content: space-between;
+            background-color: #f9f9f9;
+        }
+        .metrics div, .control-panel div {
+            width: 48%;
+            background-color: #ececec;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .metrics h2, .control-panel h2 {
+            margin-top: 0;
+        }
+        .metrics ul, .control-panel ul {
+            list-style: none;
+            padding: 0;
+        }
+        .metrics ul li, .control-panel ul li {
+            margin-bottom: 10px;
+        }
+        .control-panel h3 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Главная</h1>
+        </div>
+        <div class="nav">
+            <ul>
+               <li><a href="main.html">Главная</a></li>
+                <li><a href="project.html">Проекты</a></li>
+                <li><a href="Contr_agent.html">Контрагенты</a></li>
+                <li><a href="#">Прайс лист</a></li>
+                <li><a href="#">История проектов</a></li>
+            </ul>
+        </div>
+        <div class="metrics">
+            <div>
+                <h2>Метрики по доходам</h2>
+                <ul>
+                    <li>Доход за 30 дней: $100,000</li>
+                    <li>Средний доход в день: $3,333</li>
+                    <li>Сравнение с прошл. периодом: +5%</li>
+                </ul>
+                <h2>Быстрые действия</h2>
+                <ul>
+                    <li>Новый проект</li>
+                    <li>Новая задача</li>
+                </ul>
+            </div>
+            <div>
+                <h2>Панель управления</h2>
+                <h3>Сводка проектов</h3>
+                <ul>
+                    <li>Активные: 5</li>
+                    <li>Завершенные: 10</li>
+                    <li>Завершение: 70%</li>
+                    <li>Всего проектов: 15</li>
+                </ul>
+                <h3>Задачи</h3>
+                <ul>
+                    <li>Всего: 50</li>
+                    <li>Завершенные: 30</li>
+                    <li>Просроченные: 5</li>
+                    <li>В работе: 15</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
